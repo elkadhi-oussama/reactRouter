@@ -1,0 +1,42 @@
+#root{
+  background-color: black;
+}
+
+.active-pink-4 input[type="text"]:focus:not([readonly]) {
+    border: 1px solid #f48fb1;
+    box-shadow: 0 0 0 1px #f48fb1;
+  }
+  .active-pink-3 input[type="text"] {
+    border: 1px solid #f48fb1;
+    box-shadow: 0 0 0 1px #f48fb1;
+  }
+
+  button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .on {
+    color: rgb(255, 242, 53);
+  }
+  .off {
+    color: #ccc;
+  }
+
+  .form-control, Rating{
+    margin:2%
+  }
+  .App {
+    margin: 1%;
+    
+  }
+  .ListMovies{
+  
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10px;
+  margin-top: 20px;
+    
+  }
